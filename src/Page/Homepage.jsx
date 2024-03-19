@@ -5,6 +5,7 @@ import HeroSection from '../Componentes/HeroSection';
 import NavBar from '../Componentes/NavBar';
 import PopularAirlines from '../Componentes/PopularAirlines';
 import Testimonials from '../Componentes/Testimonials';
+import Travel from '../Componentes/Travel';
 
 const Homepage = () => {
     return (
@@ -15,6 +16,7 @@ const Homepage = () => {
             <DealsAndOffers/>
             <PopularAirlines/>
             <Testimonials/>
+            <Travel/>
         </div>
     );
 };
