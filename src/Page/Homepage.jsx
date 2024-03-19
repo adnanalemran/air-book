@@ -4,6 +4,7 @@ import Featured from '../Componentes/Featured';
 import HeroSection from '../Componentes/HeroSection';
 import NavBar from '../Componentes/NavBar';
 import PopularAirlines from '../Componentes/PopularAirlines';
+import Testimonials from '../Componentes/Testimonials';
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Featured/>
             <DealsAndOffers/>
             <PopularAirlines/>
+            <Testimonials/>
         </div>
     );
 };
