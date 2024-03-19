@@ -3,6 +3,7 @@ import DealsAndOffers from '../Componentes/DealsAndOffers';
 import Featured from '../Componentes/Featured';
 import HeroSection from '../Componentes/HeroSection';
 import NavBar from '../Componentes/NavBar';
+import PopularAirlines from '../Componentes/PopularAirlines';
 
 const Homepage = () => {
     return (
@@ -11,6 +12,7 @@ const Homepage = () => {
             <HeroSection/>
             <Featured/>
             <DealsAndOffers/>
+            <PopularAirlines/>
         </div>
     );
 };
