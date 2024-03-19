@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <div className="lg:flex w-full  py-24">
+    <div className="lg:flex w-full  py-24 container mx-auto">
       <div className=" w-1/2    ">
         <div>
           <svg
@@ -54,20 +54,21 @@ const Subscribe = () => {
         </div>
       </div>
       <div className="w-1/2 ">
-        <div className="lg:w-1/2">
-          <div className="text-gray-900 font-semibold text-4xl">
+        <div className="pt-12">
+          <div className="text-gray-900 font-bold text-5xl">
             Subscribe to our Newsletter!
           </div>
           <p className="text-blue-600 font-semibold  py-4">
             Subscribe to our newsletter and stay updated.
           </p>
-          <input
+        </div>
+        
+        <input
             type="text"
             placeholder="Your email"
             className="input input-bordered w-full py-4"
           />
           <button className="btn btn-warning w-full mt-3 ">Subscribe</button>
-        </div>
       </div>
     </div>
   );
