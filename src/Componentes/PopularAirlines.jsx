@@ -14,7 +14,7 @@ const PopularAirlines = () => {
     <div className=" py-8 container mx-auto px-8  ">
       <h2 className="text-2xl font-semibold text-gray-950">Popular Airlines</h2>
 
-      <div className="grid grid-cols-4 gap-5  w-full py-12  ">
+      <div className="grid md:grid-cols-3  lg:grid-cols-4 gap-5  w-full py-12  ">
         {Airlines.map((airline) => (
           <div
             key={airline.id}

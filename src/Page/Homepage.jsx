@@ -1,4 +1,5 @@
  
+import Bannar2 from '../Componentes/Bannar2';
 import DealsAndOffers from '../Componentes/DealsAndOffers';
 import Featured from '../Componentes/Featured';
 import Footer from '../Componentes/Footer';
@@ -13,7 +14,8 @@ const Homepage = () => {
     return (
         <div>
             <NavBar/>
-            <HeroSection/>
+            {/* <HeroSection/> */}
+            <Bannar2/>
             <Featured/>
             <DealsAndOffers/>
             <PopularAirlines/>

@@ -6,7 +6,7 @@ const Featured = () => {
       </h2>
 
       <div className="lg:flex gap-6 w-full py-12   ">
-        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl">
+        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl mx-auto ">
           <a title="click for product detail page">
             <figure className=" px-2">
               <img
@@ -28,7 +28,7 @@ const Featured = () => {
             </div>
           </div>
         </div>
-        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl">
+        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl mx-auto">
           <a title="click for product detail page">
             <figure className=" px-2">
               <img
@@ -50,7 +50,7 @@ const Featured = () => {
             </div>
           </div>
         </div>
-        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl">
+        <div className="card w-full max-w-sm  shadow-2xl relative hover:shadow-xl mx-auto">
           <a title="click for product detail page">
             <figure className=" px-2">
               <img

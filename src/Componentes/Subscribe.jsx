@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <div className="lg:flex w-full  py-24 container mx-auto">
+    <div className="lg:flex w-full p-24 lg:py-24 container mx-auto">
       <div className=" w-1/2    ">
         <div>
           <svg

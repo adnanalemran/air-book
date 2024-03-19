@@ -3,8 +3,9 @@ const DealsAndOffers = () => {
     <div className=" py-8 container mx-auto px-8  ">
       <h2 className="text-2xl font-semibold text-gray-950">Deals and Offers</h2>
 
-      <div className="lg:flex gap-6 w-full py-12   ">
-        <div className="  flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
+      <div className="lg:flex gap-6 w-full py-12    ">
+
+        <div className=" my-5 flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
           <figure className=" w-1/3  ">
             <img
               src="https://i.ibb.co/X29WKy8/ffb96e0e5c51c764ad1be283b8f88c63.png"
@@ -22,7 +23,7 @@ const DealsAndOffers = () => {
             </div>
           </div>
         </div>
-        <div className="  flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
+        <div className=" my-5 flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
           <figure className=" w-1/3  ">
             <img
               src="https://i.ibb.co/RjR4MQr/58a5cb07596c8390c3c8b8c1b5228f5c.png"
@@ -40,7 +41,7 @@ const DealsAndOffers = () => {
             </div>
           </div>
         </div>
-        <div className="  flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
+        <div className=" my-5 flex  items-center justify-center align-middle  w-full max-w-sm  shadow-xl relative  ">
           <figure className=" w-1/3  ">
             <img
               src="https://i.ibb.co/gZmbP84/bd2a194917550c4334c07048753d2361.png"
